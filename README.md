@@ -24,7 +24,7 @@ helps to create large web applications. The main purpose of React is to be extre
 ![Sign-in form view](./src/images/sign%20up%20form.png)
 
 #### Mobile
-![Mobile main view](../briskly_events/src/images/phone%20view.png)
+![Mobile main view](./src/images/phone%20view.png)
 
 #### Links
 [Figma link](https://www.figma.com/files/project/59306679/Briskly_events?fuid=955253629606430805).
