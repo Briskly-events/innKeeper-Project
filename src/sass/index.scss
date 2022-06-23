@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import "global";
+@import "button";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+// main styling
+.contact{
+    background-image: url(../images/map130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2{
+        font-size: 39.1px;
+        font-weight: 700;
+    }
+    textarea{
+        resize: none !important;
+        height: 290px !important;
+        overflow-y: hidden;
+        background-color: rgb(231, 230, 230) !important;
+    }
+    input[type=text]{
+        background-color: rgb(231, 230, 230) !important;
+    }
+    // .contact_img{
+    //     width: 200px;
+    // }
+    .contact_form{
+        background-color: white !important;
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+}
+.footer_content{
+    background-color: $ter_color;
+    color: white;
+    .footer-logo{
+        width: 80px;
+    }
+    .links{
+        margin-left: 15px !important;
+    }
+    .media{
+        margin-left: 15px !important;
+    }
+}

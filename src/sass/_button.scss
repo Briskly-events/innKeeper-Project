@@ -1,0 +1,38 @@
+%btn-sign{
+    background-color: $pry_color;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+
+    &:hover{
+        color: $ter_color;
+    }
+}
+
+%btn-google{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    &:hover{
+        color: black;
+        background-color: rgb(98, 2, 2);
+    }
+}
+
+%btn-facebook{
+    background-color: #3b5998 ;
+    color: white;
+    padding: 20px;
+    &:hover{
+        color: black;
+        background-color: #064fed ;
+    }
+}
+
+// classes
+.btn-facebook{
+    @extend %btn-facebook;
+}
+.btn-google{
+    @extend %btn-google;
+}

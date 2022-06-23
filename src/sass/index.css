@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+.btn-google {
+  background-color: red;
+  color: white;
+  padding: 20px;
+}
+
+.btn-google:hover {
+  color: black;
+  background-color: #620202;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  color: white;
+  padding: 20px;
+}
+
+.btn-facebook:hover {
+  color: black;
+  background-color: #064fed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact {
+  background-image: url(../images/map130.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact h2 {
+  font-size: 39.1px;
+  font-weight: 700;
+}
+
+.contact textarea {
+  resize: none !important;
+  height: 290px !important;
+  overflow-y: hidden;
+  background-color: #e7e6e6 !important;
+}
+
+.contact input[type=text] {
+  background-color: #e7e6e6 !important;
+}
+
+.contact .contact_form {
+  background-color: white !important;
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+
+.footer_content {
+  background-color: #000000;
+  color: white;
+}
+
+.footer_content .footer-logo {
+  width: 80px;
+}
+
+.footer_content .links {
+  margin-left: 15px !important;
+}
+
+.footer_content .media {
+  margin-left: 15px !important;
+}
+/*# sourceMappingURL=index.css.map */
